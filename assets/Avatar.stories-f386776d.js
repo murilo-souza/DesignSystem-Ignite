@@ -1,0 +1,2 @@
+import{A as t}from"./index-b6025ae7.js";import"./index-34e51894.js";import"./es.object.get-own-property-descriptor-64192e07.js";import"./index-75cd1920.js";import"./jsx-runtime-da4cfb3b.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/murilo-souza.png",alt:"Murilo Souza"},argTypes:{src:{control:{type:"text"}}}},c={},m={args:{src:void 0}},l=["Primary","WithFallback"];export{c as Primary,m as WithFallback,l as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories-f386776d.js.map
