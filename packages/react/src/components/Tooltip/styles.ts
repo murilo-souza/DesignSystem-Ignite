@@ -8,11 +8,22 @@ export const DayCalendar = styled('button', {
   borderRadius: '$sm',
   border: 0,
 
-  backgroundColor: '$gray600',
   color: '$white',
 
   fontFamily: '$default',
   fontSize: '$md',
+
+  background: '$gray600',
+
+  '&:disabled': {
+    background: 'none',
+    cursor: 'default',
+    opacity: 0.4,
+  },
+
+  '&:not(:disabled):hover': {
+    background: '$gray500',
+  },
 })
 
 export const TooltipContent = styled(Tooltip.Content, {
